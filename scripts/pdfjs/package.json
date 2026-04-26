@@ -1,0 +1,12 @@
+{
+  "name": "office-pdfjs",
+  "version": "1.0.0",
+  "description": "PDF.js integration for office preview",
+  "main": "pdf2html.js",
+  "scripts": {
+    "start": "node pdf2html.js"
+  },
+  "dependencies": {
+    "pdfjs-dist": "^3.11.174"
+  }
+}

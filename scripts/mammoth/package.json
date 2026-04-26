@@ -1,0 +1,21 @@
+{
+  "name": "office-scripts",
+  "version": "1.0.0",
+  "description": "Office document conversion scripts using Mammoth",
+  "main": "index.js",
+  "scripts": {
+    "docx2html": "node mammoth/docx2html.js",
+    "pptx2html": "node mammoth/pptx2html.js"
+  },
+  "dependencies": {
+    "mammoth": "^1.6.0"
+  },
+  "keywords": [
+    "docx",
+    "pptx",
+    "office",
+    "conversion"
+  ],
+  "author": "",
+  "license": "MIT"
+}
